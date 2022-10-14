@@ -104,5 +104,5 @@ nav ul li {
 }
 .songinfo img{
 	opacity: 1;
-	transition: opacity Is ease-in ;
+	transition: opacity 0.4s ease-in ;
 }
