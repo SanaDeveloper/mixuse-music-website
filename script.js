@@ -7,6 +7,7 @@ let audioElement = new Audio('songs/1.m4a');
 let masterplay = document.getElementById('masterplay');
 let myProgessBar = document.getElementById('myProgessBar');
 let gif = document.getElementById('gif');
+var songItems = Array.from(document.getElementsByClassName('songItem'));
 
 let songs = [
 {songname: "dAkhil_Feat_Adah_Sharma___Life_Official_Video___Preet_Hundal___Arvindr_Khaira___Latest_Punjabi_Song", filepath:"songs/1.m4a",coverpath:"covers/1.jpg"},
@@ -20,9 +21,16 @@ let songs = [
 {songname: "Churai Janda Eh - Jassi Gill", filepath:"songs/9.mp3",coverpath:"covers/9.jpg"},
 {songname: "Guitar_Sikhda_(Full_Video)____Jassi_Gill___Jaani___B_Praak___Arvindr_Khaira___Punjabi_Songs_2018", filepath:"songs/10.mp3",coverpath:"covers/10.jpg"},
 
-
-
 ];
+
+
+
+
+ 
+
+
+
+
 //audioElement.play();
 // handle play/pause click
 masterplay.addEventListener('click',()=>{
